@@ -10,15 +10,15 @@
 }
 
 window#waybar {
-  background-color: @base;
+  background-color: rgba(0, 0, 0, 0);
   color: @text;
-  border-bottom: 0px solid @rose;
 }
 
 #workspaces {
+  background-color: @base;
+  color: @text;
   margin: 0.4em;
   padding: 0 0.8em;
-  background-color: @overlay;
   border-radius: 8px;
 }
 
@@ -26,11 +26,16 @@ window#waybar {
   font-family: Ibm Plex Mono;
   min-width: 1.5em;
   font-size: 1.5em;
-  color: @subtle;
+  color: @pine;
+}
+
+#workspaces button:hover {
+  background-color: @overlay;
+  border: 0;
 }
 
 #workspaces button.active {
-  color: @text;
+  color: @gold;
 }
 
 #workspaces button.empty {
@@ -41,22 +46,22 @@ window#waybar {
 #cpu {
   margin: 0.4em;
   padding: 0 0.8em;
-  color: @base;
+  background-color: @base;
   border-radius: 8px;
 }
 
 #memory {
-  background-color: @iris;
+  color: @iris;
 }
 
 #cpu {
-  background-color: @foam;
+  color: @foam;
 }
 
 #tray {
   margin: 0.4em;
   padding: 0 0.8em;
-  background-color: @overlay;
+  background-color: @base;
   border-radius: 8px;
 }
 
@@ -64,8 +69,8 @@ window#waybar {
   margin: 0.4em;
   padding: 0 0.8em;
   border-radius: 8px;
-  background-color: @iris;
-  color: @base;
+  background-color: @base;
+  color: @gold;
 }
 
 #clock {
@@ -76,6 +81,6 @@ window#waybar {
   padding: 0 0.8em;
   background-color: @overlay;
   border-radius: 8px;
-  background-color: @foam;
-  color: @base;
+  background-color: @base;
+  color: @pine;
 }
