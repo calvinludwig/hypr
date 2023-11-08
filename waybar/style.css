@@ -18,8 +18,8 @@ window#waybar {
   background-color: @base;
   color: @text;
   margin: 0.4em;
-  padding: 0 0.8em;
-  border-radius: 8px;
+  padding: 0 1em;
+  border-radius: 12px;
 }
 
 #workspaces button {
@@ -45,9 +45,9 @@ window#waybar {
 #memory,
 #cpu {
   margin: 0.4em;
-  padding: 0 0.8em;
+  padding: 0 1em;
   background-color: @base;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 #memory {
@@ -60,15 +60,15 @@ window#waybar {
 
 #tray {
   margin: 0.4em;
-  padding: 0 0.8em;
+  padding: 0 1em;
   background-color: @base;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 #pulseaudio {
   margin: 0.4em;
-  padding: 0 0.8em;
-  border-radius: 8px;
+  padding: 0 1em;
+  border-radius: 12px;
   background-color: @base;
   color: @gold;
 }
@@ -78,9 +78,9 @@ window#waybar {
     IBM Plex Mono,
     monospace;
   margin: 0.4em;
-  padding: 0 0.8em;
+  padding: 0 1em;
   background-color: @overlay;
-  border-radius: 8px;
+  border-radius: 12px;
   background-color: @base;
   color: @pine;
 }
